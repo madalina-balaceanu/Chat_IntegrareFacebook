@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FinalChat</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">1712141449071195</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_groups">GroupsActivity</string>
+    <string name="title_activity_friends_list">FriendsListActivity</string>
+    <string name="title_activity_notifications">NotificationsActivity</string>
+    <string name="title_activity_notificare">NotificareActivity</string>
+    <string name="title_activity_menu2">Menu2Activity</string>
+    <string name="title_activity_file">FileActivity</string>
+    <string name="title_activity_conversation">ConversationActivity</string>
+    <string name="title_activity_download">DownloadActivity</string>
+    <string name="title_activity_activity_listview">activity_listview</string>
+    <string name="title_activity_conversation_test">ConversationTest</string>
+</resources>

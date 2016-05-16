@@ -1,0 +1,20 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">
+    jdbc:mysql://localhost:3306/chatoid</property>
+    <property name="hibernate.connection.username">adriana</property>
+    <property name="hibernate.connection.password">baestinebun</property>
+    <property name="hibernate.connection.pool_size">10</property>
+    <property name="show_sql">true</property>
+    <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+     <mapping class="org.Chatoid.model.Conversation"/>   
+     <mapping class="org.Chatoid.model.GroupConversation"/> 
+     <mapping class="org.Chatoid.model.GroupMembers"/>  
+     <mapping class="org.Chatoid.model.Notification"/>      
+   </session-factory>
+</hibernate-configuration>

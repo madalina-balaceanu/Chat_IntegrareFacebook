@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.springsource.ide.eclipse.gradle.classpathcontainer"/>
+	<classpathentry kind="lib" path="/home/madalina/workspace/serverIDPFina;/gs-rest-service/complete/hibernate-release-5.1.0.Final/lib/java8/hibernate-java8-5.1.0.Final.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

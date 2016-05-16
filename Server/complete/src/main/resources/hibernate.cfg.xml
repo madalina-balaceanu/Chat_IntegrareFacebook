@@ -1,0 +1,12 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/Chat</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">madalina</property>
+    <property name="hibernate.connection.pool_size">10</property>     
+   </session-factory>
+</hibernate-configuration>
